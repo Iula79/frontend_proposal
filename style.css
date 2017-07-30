@@ -1,0 +1,68 @@
+@font-face {
+    font-family: Gotham SSm A;
+    src: url("./fonts/Gotham/Gotham-Book.otf") format("opentype");
+}
+@font-face {
+    font-family: Gotham SSm C;
+    src: url("./fonts/Gotham/Gotham-BlackItalic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Sentinel SSm A;
+    src: url("./fonts/Sentinel/Sentinel-Black.otf") format("opentype");
+}
+@font-face {
+    font-family: Sentinel SSm B;
+    src: url("./fonts/Sentinel/Sentinel-Book.otf") format("opentype");
+}
+
+body {
+    background-color:#f0f0f0;
+}
+#events-title{
+    color:white;
+     font-family:"Sentinel SSm B",Helvetica,Arial,sans-serif;
+         font-weight: 200; 
+     font-size: 50px;
+     text-align:center;
+}
+
+#logo {
+    height:21px;
+    width:80px;
+}
+.navbar-default {
+    margin-bottom: 0;
+}
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+.navbar-default .navbar-nav>li>a {
+    font-family: "Gotham SSm A";
+    font-size: 13px;
+    color:#333;
+    font-weight:400;
+    letter-spacing: .5px;
+    border-bottom: 1px solid transparent;
+    transition: color 225ms ease-in-out 0ms;
+}
+.navbar-default .input-group .input-group-addon {
+    border-radius: 0;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    height: 34px;
+}
+
+#event-title-container{
+    background-color:#737ff9; 
+    height:250px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+#event-content-container {
+    display: flex;
+    justify-content:space-around;
+
+}

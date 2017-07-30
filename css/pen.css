@@ -1,0 +1,492 @@
+@charset "UTF-8";
+/*! Licensed under MIT, https://github.com/sofish/pen */
+@font-face {
+  font-family: 'pen';
+  src: url("/static/fonts/fontello.eot?370dad08");
+  src: url("/static/fonts/fontello.eot?370dad08#iefix") format("embedded-opentype"), url("/static/fonts/fontello.woff?370dad08") format("woff"), url("/static/fonts/fontello.ttf?370dad08") format("truetype"), url("/static/fonts/fontello.svg?370dad08#fontello") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+/*! Licensed under MIT, https://github.com/sofish/pen */
+form > div.form-row > div#id_body_editable {
+  /* basic reset */
+  /* list */
+}
+form > div.form-row > div#id_body_editable .pen {
+  /* block-level element margin */
+  /* headers */
+}
+form > div.form-row > div#id_body_editable .pen:focus {
+  outline: none;
+}
+form > div.form-row > div#id_body_editable .pen fieldset, form > div.form-row > div#id_body_editable .pen img {
+  border: 0;
+}
+form > div.form-row > div#id_body_editable .pen blockquote {
+  padding-left: 10px;
+  margin-left: -14px;
+  border-left: 4px solid #1abf89;
+}
+form > div.form-row > div#id_body_editable .pen a {
+  color: #1abf89;
+}
+form > div.form-row > div#id_body_editable .pen del {
+  text-decoration: line-through;
+}
+form > div.form-row > div#id_body_editable .pen sub, form > div.form-row > div#id_body_editable .pen sup {
+  font-size: 75%;
+  position: relative;
+  vertical-align: text-top;
+}
+form > div.form-row > div#id_body_editable .pen:root sub, form > div.form-row > div#id_body_editable .pen:root sup {
+  vertical-align: baseline;
+  /* for ie9 and other mordern browsers */
+}
+form > div.form-row > div#id_body_editable .pen sup {
+  top: -0.5em;
+}
+form > div.form-row > div#id_body_editable .pen sub {
+  bottom: -0.25em;
+}
+form > div.form-row > div#id_body_editable .pen hr {
+  border: none;
+  border-bottom: 1px solid #cfcfcf;
+  margin-bottom: 25px;
+  *color: pink;
+  *filter: chroma(color=pink);
+  height: 10px;
+  *margin: -7px 0 15px;
+}
+form > div.form-row > div#id_body_editable .pen small {
+  font-size: 0.8em;
+  color: #888;
+}
+form > div.form-row > div#id_body_editable .pen em, form > div.form-row > div#id_body_editable .pen b, form > div.form-row > div#id_body_editable .pen strong {
+  font-weight: 700;
+}
+form > div.form-row > div#id_body_editable .pen pre {
+  white-space: pre-wrap;
+  padding: 0.85em;
+  background: #f8f8f8;
+}
+form > div.form-row > div#id_body_editable .pen p, form > div.form-row > div#id_body_editable .pen pre, form > div.form-row > div#id_body_editable .pen ul, form > div.form-row > div#id_body_editable .pen ol, form > div.form-row > div#id_body_editable .pen dl, form > div.form-row > div#id_body_editable .pen form, form > div.form-row > div#id_body_editable .pen .pen table, form > div.form-row > div#id_body_editable .pen .pen blockquote {
+  margin-bottom: 16px;
+}
+form > div.form-row > div#id_body_editable .pen .pen h1, form > div.form-row > div#id_body_editable .pen .pen h2, form > div.form-row > div#id_body_editable .pen .pen h3, form > div.form-row > div#id_body_editable .pen .pen h4, form > div.form-row > div#id_body_editable .pen .pen h5, form > div.form-row > div#id_body_editable .pen .pen h6 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+form > div.form-row > div#id_body_editable .pen .pen h1 {
+  font-size: 2em;
+}
+form > div.form-row > div#id_body_editable .pen .pen h2 {
+  font-size: 1.8em;
+}
+form > div.form-row > div#id_body_editable .pen .pen h3 {
+  font-size: 1.6em;
+}
+form > div.form-row > div#id_body_editable .pen .pen h4 {
+  font-size: 1.4em;
+}
+form > div.form-row > div#id_body_editable .pen .pen h5, form > div.form-row > div#id_body_editable .pen .pen h6 {
+  font-size: 1.2em;
+}
+form > div.form-row > div#id_body_editable .pen, form > div.form-row > div#id_body_editable .pen-menu, form > div.form-row > div#id_body_editable .pen-input, form > div.form-row > div#id_body_editable .pen textarea {
+  font: 400 1.16em/1.45 Palatino, Optima, Georgia, serif;
+  color: #331;
+}
+form > div.form-row > div#id_body_editable .pen ul, form > div.form-row > div#id_body_editable .pen ol {
+  margin-left: 1.2em;
+}
+form > div.form-row > div#id_body_editable .pen ul, form > div.form-row > div#id_body_editable .pen-ul {
+  list-style: disc;
+}
+form > div.form-row > div#id_body_editable .pen ol, form > div.form-row > div#id_body_editable .pen-ol {
+  list-style: decimal;
+}
+form > div.form-row > div#id_body_editable .pen li ul, form > div.form-row > div#id_body_editable .pen li ol, form > div.form-row > div#id_body_editable .pen-ul ul, form > div.form-row > div#id_body_editable .pen-ul ol, form > div.form-row > div#id_body_editable .pen-ol ul, form > div.form-row > div#id_body_editable .pen-ol ol {
+  margin: 0 2em 0 1.2em;
+}
+form > div.form-row > div#id_body_editable .pen li ul, form > div.form-row > div#id_body_editable .pen-ul ul, form > div.form-row > div#id_body_editable .pen-ol ul {
+  list-style: circle;
+}
+form > div.form-row > div#id_body_editable .pen {
+  position: relative;
+}
+form > div.form-row > div#id_body_editable .pen.hinted h1:before,
+form > div.form-row > div#id_body_editable .pen.hinted h2:before,
+form > div.form-row > div#id_body_editable .pen.hinted h3:before,
+form > div.form-row > div#id_body_editable .pen.hinted h4:before,
+form > div.form-row > div#id_body_editable .pen.hinted h5:before,
+form > div.form-row > div#id_body_editable .pen.hinted h6:before,
+form > div.form-row > div#id_body_editable .pen.hinted blockquote:before,
+form > div.form-row > div#id_body_editable .pen.hinted hr:before {
+  color: #eee;
+  position: absolute;
+  right: 100%;
+  white-space: nowrap;
+  padding-right: 10px;
+}
+form > div.form-row > div#id_body_editable .pen.hinted blockquote {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+form > div.form-row > div#id_body_editable .pen.hinted blockquote:before {
+  color: #1abf89;
+  content: ">";
+  font-weight: bold;
+  vertical-align: center;
+}
+form > div.form-row > div#id_body_editable .pen.hinted h1:before {
+  content: "#";
+}
+form > div.form-row > div#id_body_editable .pen.hinted h2:before {
+  content: "##";
+}
+form > div.form-row > div#id_body_editable .pen.hinted h3:before {
+  content: "###";
+}
+form > div.form-row > div#id_body_editable .pen.hinted h4:before {
+  content: "####";
+}
+form > div.form-row > div#id_body_editable .pen.hinted h5:before {
+  content: "#####";
+}
+form > div.form-row > div#id_body_editable .pen.hinted h6:before {
+  content: "######";
+}
+form > div.form-row > div#id_body_editable .pen.hinted hr:before {
+  content: "﹘﹘﹘";
+  line-height: 1.2;
+  vertical-align: bottom;
+}
+form > div.form-row > div#id_body_editable .pen.hinted pre:before, form > div.form-row > div#id_body_editable .pen.hinted pre:after {
+  content: "```";
+  display: block;
+  color: #ccc;
+}
+form > div.form-row > div#id_body_editable .pen.hinted ul {
+  list-style: none;
+}
+form > div.form-row > div#id_body_editable .pen.hinted ul li:before {
+  content: "*";
+  color: #999;
+  line-height: 1;
+  vertical-align: bottom;
+  margin-left: -1.2em;
+  display: inline-block;
+  width: 1.2em;
+}
+form > div.form-row > div#id_body_editable .pen.hinted b:before, form > div.form-row > div#id_body_editable .pen.hinted b:after {
+  content: "**";
+  color: #eee;
+  font-weight: normal;
+}
+form > div.form-row > div#id_body_editable .pen.hinted i:before, form > div.form-row > div#id_body_editable .pen.hinted i:after {
+  content: "*";
+  color: #eee;
+}
+form > div.form-row > div#id_body_editable .pen.hinted a {
+  text-decoration: none;
+}
+form > div.form-row > div#id_body_editable .pen.hinted a:before {
+  content: "[";
+  color: #ddd;
+}
+form > div.form-row > div#id_body_editable .pen.hinted a:after {
+  content: "](" attr(href) ")";
+  color: #ddd;
+}
+form > div.form-row > div#id_body_editable .pen-placeholder:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: attr(data-placeholder);
+  color: #999;
+  cursor: text;
+}
+
+/* pen menu */
+.pen-menu [class^="icon-"], .pen-menu [class*=" icon-"] {
+  /* reset to avoid conflicts with Bootstrap */
+  background: transparent;
+  background-image: none;
+}
+
+.pen-menu {
+  min-width: 320px;
+}
+
+.pen-menu, .pen-input {
+  font-size: 14px;
+  line-height: 1;
+}
+
+.pen-menu {
+  white-space: nowrap;
+  box-shadow: 1px 2px 3px -2px #222;
+  background: #333;
+  background-image: linear-gradient(to bottom, #222, #333);
+  opacity: 0.9;
+  position: fixed;
+  height: 36px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  display: none;
+  z-index: 1000;
+}
+
+.pen-menu:after {
+  top: 100%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.pen-menu:after {
+  border-color: rgba(51, 51, 51, 0);
+  border-top-color: #333;
+  border-width: 6px;
+  left: 50%;
+  margin-left: -6px;
+}
+
+.pen-menu-below:after {
+  top: -11px;
+  display: block;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.pen-icon {
+  font: normal 900 16px/40px Georgia serif;
+  min-width: 20px;
+  display: inline-block;
+  padding: 0 10px;
+  height: 36px;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pen-icon:first-of-type {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.pen-icon:last-of-type {
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.pen-icon:hover {
+  background: #000;
+}
+
+.pen-icon.active {
+  color: #1abf89;
+  background: #000;
+  box-shadow: inset 2px 2px 4px #000;
+}
+
+.pen-input {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 36px;
+  line-height: 20px;
+  background: #333;
+  color: #fff;
+  border: none;
+  text-align: center;
+  display: none;
+  font-family: arial, sans-serif;
+}
+
+.pen-input:focus {
+  outline: none;
+}
+
+.pen-textarea {
+  display: block;
+  background: #f8f8f8;
+  padding: 20px;
+}
+
+.pen textarea {
+  font-size: 14px;
+  border: none;
+  background: none;
+  width: 100%;
+  _height: 200px;
+  min-height: 200px;
+  resize: none;
+}
+
+.pen-menu {
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+  /* '' */
+}
+.pen-menu [class^="icon-"]:before, .pen-menu [class*=" icon-"]:before {
+  font-family: "pen";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: .2em;
+}
+.pen-menu .icon-location:before {
+  content: '\e815';
+}
+.pen-menu .icon-fit:before {
+  content: '\e80f';
+}
+.pen-menu .icon-bold:before {
+  content: '\e805';
+}
+.pen-menu .icon-italic:before {
+  content: '\e806';
+}
+.pen-menu .icon-justifyleft:before {
+  content: '\e80a';
+}
+.pen-menu .icon-justifycenter:before {
+  content: '\e80b';
+}
+.pen-menu .icon-justifyright:before {
+  content: '\e80c';
+}
+.pen-menu .icon-justifyfull:before {
+  content: '\e80d';
+}
+.pen-menu .icon-outdent:before {
+  content: '\e800';
+}
+.pen-menu .icon-indent:before {
+  content: '\e801';
+}
+.pen-menu .icon-mode:before {
+  content: '\e813';
+}
+.pen-menu .icon-fullscreen:before {
+  content: '\e80e';
+}
+.pen-menu .icon-insertunorderedlist:before {
+  content: '\e802';
+}
+.pen-menu .icon-insertorderedlist:before {
+  content: '\e803';
+}
+.pen-menu .icon-strikethrough:before {
+  content: '\e807';
+}
+.pen-menu .icon-underline:before {
+  content: '\e804';
+}
+.pen-menu .icon-blockquote:before {
+  content: '\e814';
+}
+.pen-menu .icon-undo:before {
+  content: '\e817';
+}
+.pen-menu .icon-code:before {
+  content: '\e816';
+}
+.pen-menu .icon-pre:before {
+  content: '\e816';
+}
+.pen-menu .icon-unlink:before {
+  content: '\e811';
+}
+.pen-menu .icon-superscript:before {
+  content: '\e808';
+}
+.pen-menu .icon-subscript:before {
+  content: '\e809';
+}
+.pen-menu .icon-inserthorizontalrule:before {
+  content: '\e818';
+}
+.pen-menu .icon-pin:before {
+  content: '\e812';
+}
+.pen-menu .icon-createlink:before {
+  content: '\e810';
+}
+.pen-menu .icon-h1:before {
+  content: 'H1';
+}
+.pen-menu .icon-h2:before {
+  content: 'H2';
+}
+.pen-menu .icon-h3:before {
+  content: 'H3';
+}
+.pen-menu .icon-h4:before {
+  content: 'H4';
+}
+.pen-menu .icon-h5:before {
+  content: 'H5';
+}
+.pen-menu .icon-h6:before {
+  content: 'H6';
+}
+.pen-menu .icon-p:before {
+  content: 'P';
+}
+.pen-menu .icon-insertimage:before {
+  width: 1.8em;
+  margin: 0;
+  position: relative;
+  top: -2px;
+  content: 'IMG';
+  font-size: 12px;
+  border: 1px solid #fff;
+  padding: 2px;
+  border-radius: 2px;
+}
