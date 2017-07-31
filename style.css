@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: Gotham SSm C;
-    src: url("./fonts/Gotham/Gotham-BlackItalic.otf") format("opentype");
+    src: url("./fonts/Gotham/GothamBold.otf") format("opentype");
 }
 
 @font-face {
@@ -62,36 +62,51 @@ body {
     align-items:center;
 }
 #event-content-container {
-    /* display: flex;
-    justify-content:space-between; */
+    display: flex;
+    justify-content:space-around; 
     padding-top:30px;
+    flex-wrap: wrap;
 
 }
-
 .stacklist-tile{
+    padding-top:10px;
     background-color:white;
     font-family: "Gotham SSm A";
-    width:70%;
+    width:350px;
+    font-size: 16px;
+    margin-bottom:30px;
 }
 .event-tile{
-    padding:10px;
+    padding:20px;
+    padding-top:0px;
     font-weight:bold;
+}
+.logo-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 #babylogo{
     width:100%;
     border:1px solid black;
-    border-radius:25px;
-    
+    border-radius:100%;    
 }
+#time{
+    font-family: Gotham SSm C,Helvetica,Arial,sans-serif;
+}
+.circular-img{
+    border-radius: 100%;
+}
+
 .see-stacklist-button{
     font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
     font-size: 11px;
-     line-height: 40px; 
+    line-height: 40px; 
     text-align: center;
     letter-spacing: 1px;
     text-transform: uppercase;
+    
      /* position: relative;  */
-     display: block; 
     height: 40px;
     line-height: 38px;
     /* overflow: none; */
@@ -101,5 +116,22 @@ body {
     background: transparent;
     /* position: absolute; */
     bottom: 20px;
-     width: calc(100% - 40px); 
+    width: calc(100% - 40px); 
 }
+@media (max-width: 767px){
+    #babylogo{
+    margin-bottom: 30px;
+    width:30%;
+    height:30%;  
+    }
+    #logocontainer{
+        display: flex;
+    justify-content: center;
+        padding-left: 0px;
+
+    }
+    #event-content-container {
+        justify-content:center;
+    }
+}
+
