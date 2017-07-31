@@ -62,7 +62,44 @@ body {
     align-items:center;
 }
 #event-content-container {
-    display: flex;
-    justify-content:space-around;
+    /* display: flex;
+    justify-content:space-between; */
+    padding-top:30px;
 
+}
+
+.stacklist-tile{
+    background-color:white;
+    font-family: "Gotham SSm A";
+    width:70%;
+}
+.event-tile{
+    padding:10px;
+    font-weight:bold;
+}
+#babylogo{
+    width:100%;
+    border:1px solid black;
+    border-radius:25px;
+    
+}
+.see-stacklist-button{
+    font-family: Gotham SSm A,Gotham SSm B,Helvetica,Arial,sans-serif;
+    font-size: 11px;
+     line-height: 40px; 
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+     /* position: relative;  */
+     display: block; 
+    height: 40px;
+    line-height: 38px;
+    /* overflow: none; */
+    transition: background .25s ease-in-out 0ms;
+    border: 1px solid #737ff9;
+    color: #737ff9;
+    background: transparent;
+    /* position: absolute; */
+    bottom: 20px;
+     width: calc(100% - 40px); 
 }
