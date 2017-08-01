@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style2.css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/">
+                <img id="logo" src="https://static-stacklist.s3.amazonaws.com/img/logo.png" data-pin-nopin="true">
+                 </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav categories-nav">
+                    <li class="nav-link-visible dropdown categories-dropdown">
+                        <a href="#" tabindex="0" data-toggle="dropdown" data-submenu=""><span class="caret"></span> Categories</a>
+                        <ul class="dropdown-menu">
+
+
+                            <li><a href="/tools/business-intelligence-analytics/">BI / Analytics</a></li>
+
+
+
+                            <li><a href="/tools/content-marketing/">Content Marketing</a></li>
+
+
+
+                            <li><a href="/tools/crm/">CRM</a></li>
+
+
+
+                            <li><a href="/tools/customer-service/">Customer Service</a></li>
+
+
+
+                            <li><a href="/tools/design/">Design</a></li>
+
+
+
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Ecommerce</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="0" href="/tools/ecommerce/">See All</a></li>
+
+                                    <li><a tabindex="0" href="/tools/credit-card-processing/">Credit Card Processing</a></li>
+
+                                    <li><a tabindex="0" href="/tools/recurring-payments/">Recurring Payments</a></li>
+
+                                </ul>
+                            </li>
+
+
+
+                            <li><a href="/tools/email-marketing/">Email Marketing</a></li>
+
+
+
+                            <li><a href="/tools/file-sharing/">File Sharing</a></li>
+
+
+
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Finance &amp; Accounting</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="0" href="/tools/accounting/">See All</a></li>
+
+                                    <li><a tabindex="0" href="/tools/accounting-services/">Accounting Firms &amp; Services</a></li>
+
+                                    <li><a tabindex="0" href="/tools/bookkeeping/">Billing &amp; Invoicing</a></li>
+
+                                    <li><a tabindex="0" href="/tools/cap-table-management/">Cap Table Management</a></li>
+
+                                    <li><a tabindex="0" href="/tools/expenses/">Expense Reports</a></li>
+
+                                    <li><a tabindex="0" href="/tools/online-accounting-suites/">Online Accounting Suites</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Hiring</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="0" href="/tools/hiring/">See All</a></li>
+
+                                    <li><a tabindex="0" href="/tools/ats-applicant-tracking-software/">ATS (Applicant Tracking Software)</a></li>
+
+                                    <li><a tabindex="0" href="/tools/candidate-assessment/">Candidate Assessment</a></li>
+
+                                    <li><a tabindex="0" href="/tools/designers/">Find Designers</a></li>
+
+                                    <li><a tabindex="0" href="/tools/developers/">Find Developers</a></li>
+
+                                    <li><a tabindex="0" href="/tools/freelancers/">Find Freelancers</a></li>
+
+                                    <li><a tabindex="0" href="/tools/interns/">Find Interns</a></li>
+
+                                    <li><a tabindex="0" href="/tools/suites/">Suites</a></li>
+
+                                </ul>
+                            </li>
+
+
+
+                            <li><a href="/tools/human-resources/">HR</a></li>
+
+
+
+                            <li><a href="/tools/internal-communication/">Internal Communication</a></li>
+
+
+
+                            <li><a href="/tools/office-space/">Office Space</a></li>
+
+
+
+                            <li><a href="/tools/other/">Other</a></li>
+
+
+
+                            <li class="dropdown-submenu">
+                                <a tabindex="0">Payroll</a>
+                                <ul class="dropdown-menu">
+                                    <li><a tabindex="0" href="/tools/payroll/">See All</a></li>
+
+                                    <li><a tabindex="0" href="/tools/paying-contractors/">Paying Contractors</a></li>
+
+                                    <li><a tabindex="0" href="/tools/payroll-salaried-employees/">Payroll for Salaried Employees</a></li>
+
+                                </ul>
+                            </li>
+
+
+
+                            <li><a href="/tools/productivity/">Productivity</a></li>
+
+
+
+                            <li><a href="/tools/project-management/">Project Management</a></li>
+
+
+
+                            <li><a href="/tools/social-media-management/">Social Media Management</a></li>
+
+
+                        </ul>
+                    </li>
+                    <li class="nav-link-visible"><a href="/stacklists/">Stacklists</a></li>
+                    <li class="nav-link-visible"><a href="/founders/">Founders</a></li>
+                    <li class="nav-link-visible"><a href="/articles/">Articles</a></li>
+                    <li class="nav-link-visible"><a href="/trbeta/">Recommendations</a></li>
+                    <form class="col-xs-12 navbar-form navbar-left navbar-searchform" id="navSearchForm" role="search" action="/search/" method="get">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div id="search-form-wrapper">
+                                    <!-- <input type="text" class="form-control" placeholder="Search" name="q" id="search-form"> -->
+                                </div>
+                                <div class="hidden-sm hidden-md hidden-lg input-group-addon nav-search-button" onclick="submitNavSearchFormXS()">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                </div>
+                                <div class="hidden-xs input-group-addon nav-search-button" onclick="submitNavSearchForm()">
+                                    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </ul>
+            </div>
+        </div>
+        <hr />
+    </nav>
+
+    <div id="event-title-container">
+        <h1 id="events-title">Events</h1>
+    </div>
+    <div id="event-content-container" class="container">
+        <div class="row month-container">
+            <h4>AUGUST 2017</h>
+        </div>
+        <div class="row">
+            <div class="row tile-container">
+                <div class="number-parent">
+                    <div class="number">
+                        <div class="month">Aug</div>
+                        <div class="day">23</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="description">
+                        <div class="event-title">
+                            <div>
+                                <h4 style="color:#737ff9">Your First 100 transactions: startups and email marketing </h4>
+                                <p>Thursday, 6:30pm - 8:30pm EDT</p>
+                            </div>
+                            <div class="button-container"><button class="btn btn-default">RSVP</button></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, nec in soleat tincidunt necessitatibus, nam virtute commune officiis
+                            ex. In vix impetus eloquentiam. Vix tincidunt cotidieque id. Et eam diam oportere ullamcorper.
+                            Pertinax indoctum persecuti mel ei. His ex nemore fabulas patrioque, solet molestie ius ad, atqui
+                            latine et eos.</p>
+                        <p style="font-style:italic;">Featuring: Aziz Ali, Ethan Anderson, Matthew Bellows, Stephanie Benedetto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row tile-container">
+                <div class="number-parent">
+                    <div class="number">
+                        <div class="month">Aug</div>
+                        <div class="day">12</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="description">
+                        <div class="event-title">
+                            <div>
+                                <h4 style="color:#737ff9">Your First Venture Round: Fundraising Advice from the Experts </h4>
+                                <p>Thursday, 6:30pm - 8:30pm EDT</p>
+                            </div>
+                            <div class="button-container"><button class="btn btn-default">RSVP</button></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, nec in soleat tincidunt necessitatibus, nam virtute commune officiis
+                            ex. In vix impetus eloquentiam. Vix tincidunt cotidieque id. Et eam diam oportere ullamcorper.
+                            Pertinax indoctum persecuti mel ei. His ex nemore fabulas patrioque, solet molestie ius ad, atqui
+                            latine et eos.</p>
+                        <p style="font-style:italic;">Featuring: Maia Bittner, Matthew Bellows, Samar Birwadker, Alex Betancur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row month-container">
+            <h4>JULY 2017</h>
+        </div>
+            <div class="row">
+            <div class="row tile-container">
+                <div class="number-parent">
+                    <div class="number">
+                        <div class="month">Aug</div>
+                        <div class="day">23</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="description">
+                        <div class="event-title">
+                            <div>
+                                <h4 style="color:#737ff9">Your First 100 transactions: startups and email marketing </h4>
+                                <p>Thursday, 6:30pm - 8:30pm EDT</p>
+                            </div>
+                            <div class="button-container"><button class="btn btn-default">RSVP</button></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, nec in soleat tincidunt necessitatibus, nam virtute commune officiis
+                            ex. In vix impetus eloquentiam. Vix tincidunt cotidieque id. Et eam diam oportere ullamcorper.
+                            Pertinax indoctum persecuti mel ei. His ex nemore fabulas patrioque, solet molestie ius ad, atqui
+                            latine et eos.</p>
+                        <p style="font-style:italic;">Featuring: Aziz Ali, Ethan Anderson, Matthew Bellows, Stephanie Benedetto</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="row tile-container">
+                <div class="number-parent">
+                    <div class="number">
+                        <div class="month">Aug</div>
+                        <div class="day">12</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="description">
+                        <div class="event-title">
+                            <div>
+                                <h4 style="color:#737ff9">Your First Venture Round: Fundraising Advice from the Experts </h4>
+                                <p>Thursday, 6:30pm - 8:30pm EDT</p>
+                            </div>
+                            <div class="button-container"><button class="btn btn-default">RSVP</button></div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet, nec in soleat tincidunt necessitatibus, nam virtute commune officiis
+                            ex. In vix impetus eloquentiam. Vix tincidunt cotidieque id. Et eam diam oportere ullamcorper.
+                            Pertinax indoctum persecuti mel ei. His ex nemore fabulas patrioque, solet molestie ius ad, atqui
+                            latine et eos.</p>
+                        <p style="font-style:italic;">Featuring: Maia Bittner, Matthew Bellows, Samar Birwadker, Alex Betancur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
