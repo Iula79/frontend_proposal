@@ -74,6 +74,8 @@ h4 {
 }
 .tile-container{
     display:flex;
+    padding:10px;
+    border-bottom: 1px solid lightgray;
 }
 .tile-container:hover {
     background-color: white;
@@ -108,8 +110,22 @@ h4 {
 }
 .button-container{
     display: flex;
-    align-items: baseline;
+    align-items: center;
+    margin:20px;
 }
 .btn{
     padding:10px 50px;
+    background: #ffc107;
+}
+.special{
+    display: inline-block;
+}
+.founder-icons{
+    padding:20px;
+}
+.circular-img{
+    /* margin:0.3px; */
+    border-radius: 50%;
+     width:40%; 
+    border:0.5px solid lightgray;
 }
