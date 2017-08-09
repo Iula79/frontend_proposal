@@ -109,7 +109,7 @@ display: flex;
     flex-direction: column;
 }
 .number {
-    margin:20px;
+    margin:0 20px 20px 20px;
     padding:20px;
     border:1px solid grey;
     text-align: center;
@@ -136,14 +136,14 @@ display: flex;
 .special{
     display: inline-block;
 }
-
- .circular-img:hover {
-   
+.circular-img:hover {  
     background-color:#000;
     opacity:0.5;
-
 }
 .circular-img{
     padding-bottom: 3px;
     border-radius: 5%;
 }
+.founder-icons {
+     text-align: center; 
+} 
