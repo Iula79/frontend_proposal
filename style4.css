@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color:#f0f0f0;
+    background-color:#adcea2;
     font-family: "Gotham SSm A";
     color:#4A4A4A;
 }
@@ -69,37 +69,51 @@ body {
 
 h4 {
     font-family: "Gotham SSm A";
-    border-right: 1px solid grey;
-     border-top: 1px solid grey;
+    border: 1px solid white;
+    /* border-right: 1px solid white;
+     border-top: 1px solid white; */
      padding:15px;
      font-size: 20px;
      color:red;
+    display: inline;
+    background-color: white;
+
      
 }
-.month-container a{
- color:black;
+.month-container h4>a{
+ color:gray;
+
+
 }
 h5 {
     font-size: 20px;
     font-family: "Gotham SSm A";
+    font-weight: bolder;
 }
 .month-container{
 text-align: center;
-display: flex;
-    padding-top:20px;
+
+margin:20px;
     /* border-bottom: 1px solid grey; */
 }
 .tile-container{
     display:flex;
     align-items: center;
     padding:10px;
-    border-bottom: 1px solid lightgray;
-}
- .tile-container:hover {
     background-color: white;
-    
-} 
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+  /* .tile-container:hover {
+    background-color: white;
+     
+}  */
 .tile-container:hover .number{
+    color: white;
+    border:1px solid white;
+    background-color:#737ff9;
+}
+.tile-container:hover .btn{
     color: white;
     border:1px solid white;
     background-color:#737ff9;
@@ -109,7 +123,7 @@ display: flex;
     flex-direction: column;
 }
 .number {
-    /* margin:0 20px 20px 20px; */
+     margin:20px; 
     padding:20px;
     border:1px solid grey;
     text-align: center;
@@ -132,7 +146,7 @@ display: flex;
 }
 .btn{
     padding:10px 50px;
-    background-color: #5EDE19;
+    background-color: white;
 }
 .special{
     display: inline-block;
@@ -144,9 +158,11 @@ display: flex;
 .circular-img{
     padding-bottom: 3px;
     border-radius: 5%;
+    width:45%;
 }
 .founder-icons {
      text-align: center; 
+     padding: 0;
 } 
 .moderator {
     text-align: center;
@@ -154,13 +170,31 @@ display: flex;
 .moderator-img {
     margin-bottom:20px;
     border-radius: 5%;
-    width: 50%;
+    width: 55%;
 }
+
+.ex1 .btn {
+    float:right;
+
+}
+.ex1 p {
+    display:inline-block;
+
+}
+
 @media (min-width: 992px){
 .col-md-3 {
-    width: 22%;
+    width: 17%;
 }
-.col-md-1 {
-    width: 10%;
+.col-md-1{
+    width:12%;
+    padding: 0px;
+}
+
+.col-md-8 {
+    width: 73.666667%;
+}
+.col-md-7 {
+    width: 63%;
 }
 }
