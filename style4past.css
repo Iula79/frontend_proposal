@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color:#d1e2cb;
+    background-color:#adcea2;
     font-family: "Gotham SSm A";
     color:#4A4A4A;
 }
@@ -62,33 +62,25 @@ body {
     align-items:center;
     padding: 0 0 30px 70px;
 }
-/* .month-container {  
-    
-} */
-
+#event-content-container {
+    padding-top: 40px;
+}
 
 h4 {
     font-family: "Gotham SSm A";
     border: 1px solid white;
      border-right: 1px solid gray;
      border-top: 1px solid gray;
-     border-left:1px solid gray;
-     border-bottom: 1px solid #d1e2cb;
+     border-left:1px solid gray; 
        padding: 10px;
      font-size: 20px;
-     color:white;
+     color:red;
     display: inline;
-    background-color: #d1e2cb;
-    border-radius: 5px 5px 0 0;
+    background-color: white;    
 }
 .month-container h4>a{
  color:gray;
- background-color:white;
-height: 32px;
-padding:10px;
-border-bottom: 1px solid;
 }
-
 h5 {
     font-size: 20px;
     font-family: "Gotham SSm A";
@@ -97,35 +89,28 @@ h5 {
 .month-container{
 text-align: center;
 background-color: white;
-    height: 32px;
 
      border-bottom: 1px solid grey; 
-}
-#event-content-container {
-    padding-top:30px;
 }
 .tile-container{
     display:flex;
     align-items: center;
     padding:10px;
-    border:1px solid white;
     margin:10px 0;
     border-radius: 10px;
-}
-   .tile-container:hover {
     background-color: white;
-     
-}  
-.tile-container:hover .number{
+} 
+ 
+/* .tile-container:hover .number{
     color: white;
     border:1px solid white;
     background-color:#737ff9;
-}
-.tile-container:hover .btn{
+} */
+/* .tile-container:hover .btn{
     color: white;
     border:1px solid white;
     background-color:#737ff9;
-}
+} */
 .number-parent{
     display: flex;
     flex-direction: column;
@@ -135,6 +120,9 @@ background-color: white;
     padding:20px;
     border:1px solid grey;
     text-align: center;
+        color: white;
+    border:1px solid white;
+    background-color:#737ff9;
 }
 .day {
     font-size: 30px;
@@ -154,7 +142,11 @@ background-color: white;
 }
 .btn{
     padding:10px 50px;
-    background-color: white;
+   
+     color: white;
+    border:1px solid white;
+    background-color:#737ff9;
+}
 }
 .special{
     display: inline-block;
