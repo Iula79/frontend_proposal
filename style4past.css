@@ -68,13 +68,7 @@ body {
 
 h4 {
     font-family: "Gotham SSm A";
-    border: 1px solid white;
-     border: 1px solid  #2a2c3b;
-       padding: 10px;
-     font-size: 20px;
-     color:red;
-    display: inline;
-    background-color: white;    
+
 }
 .month-container h4>a{
  color: #2a2c3b;
@@ -85,9 +79,8 @@ h5 {
     font-weight: bolder;
 }
 .month-container{
-text-align: center;
-background-color: white;
 
+    margin-bottom: 30px;
      border-bottom: 1px solid  #2a2c3b; 
 }
 .tile-container{
@@ -200,6 +193,9 @@ background-color: white;
     border-left: 1px solid #2a2c3b;
     background-color: white;
     border-radius: 0 0 5px 5px;
+}
+.rsvp {
+    padding:10px 40px;
 }
 
 @media (min-width: 992px){
