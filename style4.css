@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color:#d1e2cb;
+    background-color:#dedede;
     font-family: "Gotham SSm A";
     color:#4A4A4A;
 }
@@ -73,12 +73,12 @@ h4 {
      border-right: 1px solid gray;
      border-top: 1px solid gray;
      border-left:1px solid gray;
-     border-bottom: 1px solid #d1e2cb;
+     border-bottom: 1px solid #dedede;
        padding: 10px;
      font-size: 20px;
      color: red;;
     display: inline;
-    background-color: #d1e2cb;
+    background-color: #dedede;
     border-radius: 5px 5px 0 0;
 }
 .past{

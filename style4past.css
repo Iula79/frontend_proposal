@@ -17,7 +17,7 @@
 }
 
 body {
-    background-color:#adcea2;
+    background-color:#f3f3f3;
     font-family: "Gotham SSm A";
     color:#4A4A4A;
 }
@@ -119,9 +119,9 @@ background-color: white;
     padding:20px;
     border:1px solid grey;
     text-align: center;
-        color: white;
-    border:1px solid white;
-    background-color:#737ff9;
+        color: black;
+    border:1px solid grey;
+    background-color:white;
 }
 .day {
     font-size: 30px;
@@ -140,11 +140,10 @@ background-color: white;
     margin:20px;
 }
 .btn{
-    padding:10px 50px;
-   
+    padding:10px 20px;
      color: white;
     border:1px solid white;
-    background-color:#737ff9;
+    background-color:red;
 }
 .rsvp{
     text-align: center;
@@ -181,6 +180,27 @@ background-color: white;
 .ex1 p {
     display:inline-block;
 
+}
+.number2-date{
+    background-color: red;
+    margin: 0 20px;
+    color: white;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border-radius: 5px 5px 0 0;
+
+}
+.number2{
+        margin: 0 20px;
+    padding-top: 9px;
+    text-align: center;
+    color: black;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    background-color: white;
+    border-radius: 0 0 5px 5px;
 }
 
 @media (min-width: 992px){
