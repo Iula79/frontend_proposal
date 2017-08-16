@@ -117,11 +117,11 @@ background-color: white;
 .number {
      margin:20px; 
     padding:20px;
-    border:1px solid grey;
+    border:1px solid white;
     text-align: center;
-        color: black;
-    border:1px solid grey;
-    background-color:white;
+        color: white;
+    /* border:1px solid grey; */
+    background-color:#737ff9;
 }
 .day {
     font-size: 30px;
