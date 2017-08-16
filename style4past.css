@@ -179,7 +179,6 @@ background-color: white;
 }
 .ex1 p {
     display:inline-block;
-
 }
 .number2-date{
     background-color: #737ff9;
@@ -196,9 +195,9 @@ background-color: white;
     padding-top: 9px;
     text-align: center;
     color:  #2a2c3b;
-    border-right: 1px solid grey;
-    border-bottom: 1px solid grey;
-    border-left: 1px solid grey;
+    border-right: 1px solid #2a2c3b;
+    border-bottom: 1px solid #2a2c3b;
+    border-left: 1px solid #2a2c3b;
     background-color: white;
     border-radius: 0 0 5px 5px;
 }
